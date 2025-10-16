@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: stagezero
+catfact:
+    api-url: ${CATFACT_API_URL:https://catfact.ninja/fact}
+server:
+  port: ${PORT:8080}
+
